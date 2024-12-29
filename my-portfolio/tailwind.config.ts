@@ -18,13 +18,28 @@
 // } satisfies Config;
 
 // tailwind.config.ts
+// import type { Config } from 'tailwindcss'
+
+// export default {
+//   darkMode: 'class', // important for toggling via .dark class
+//   content: [
+//     './app/**/*.{js,ts,jsx,tsx}',
+//     // etc.
+//   ],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [],
+// } satisfies Config
+
+// tailwind.config.ts
 import type { Config } from 'tailwindcss'
 
 export default {
-  darkMode: 'class', // important for toggling via .dark class
+  darkMode: 'class',
   content: [
-    './app/**/*.{js,ts,jsx,tsx}',
-    // etc.
+    './app/**/*.{js,ts,jsx,tsx}', // if your pages are inside app/
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {},
