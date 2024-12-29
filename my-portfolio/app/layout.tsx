@@ -1,10 +1,10 @@
 // app/layout.tsx (Server Component)
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import DarkModeToggle from './components/DarkModeToggle'; // We'll create this
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import './globals.css'
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
