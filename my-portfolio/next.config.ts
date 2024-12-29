@@ -37,8 +37,11 @@ const nextConfig = {
   // If your repo name is <username>.github.io, you typically don’t need basePath.
   // If your repo name is something else, say "my-portfolio",
   // uncomment these lines:
-  // basePath: '',
-  // assetPrefix: 'https://darshgondalia.github.io/',
+  // This is the subpath in the URL:
+  basePath: '/my-portfolio',
+
+  // This is where the static files (CSS, JS, images) will be served from:
+  assetPrefix: 'https://darshgondalia.github.io/my-portfolio',
 }
 
 module.exports = nextConfig
