@@ -10,20 +10,35 @@
 // module.exports = nextConfig
 
 // next.config.ts
-const isProd = process.env.NODE_ENV === 'production'
+// const isProd = process.env.NODE_ENV === 'production'
 
+// const nextConfig = {
+//   // Use the new experimental `output: 'export'`
+//   // so Next.js will output static HTML in 'out' folder
+//   output: 'export',
+
+//   // If you're hosting at <username>.github.io (root),
+//   // set assetPrefix to '' or to your GitHub pages URL:
+//   assetPrefix: isProd ? 'https://DarshGondalia.github.io' : '',
+
+//   // If you host at <username>.github.io/<repo>, uncomment:
+//   // basePath: '/my-portfolio',
+//   // assetPrefix: isProd ? 'https://<username>.github.io/my-portfolio/' : '',
+// }
+
+// module.exports = nextConfig
+
+
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Use the new experimental `output: 'export'`
-  // so Next.js will output static HTML in 'out' folder
+  // Required for static export in Next.js 15
   output: 'export',
-
-  // If you're hosting at <username>.github.io (root),
-  // set assetPrefix to '' or to your GitHub pages URL:
-  assetPrefix: isProd ? 'https://DarshGondalia.github.io' : '',
-
-  // If you host at <username>.github.io/<repo>, uncomment:
+  
+  // If your repo name is <username>.github.io, you typically don’t need basePath.
+  // If your repo name is something else, say "my-portfolio",
+  // uncomment these lines:
   // basePath: '/my-portfolio',
-  // assetPrefix: isProd ? 'https://<username>.github.io/my-portfolio/' : '',
+  // assetPrefix: 'https://<username>.github.io/my-portfolio',
 }
 
 module.exports = nextConfig
