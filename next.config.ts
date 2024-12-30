@@ -36,4 +36,4 @@ const nextConfig = {
   // basePath: '/my-portfolio',
   // assetPrefix: 'https://darshgondalia.github.io/my-portfolio',
 }
-export default nextConfig
+module.exports = nextConfig
