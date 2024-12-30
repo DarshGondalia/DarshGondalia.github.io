@@ -41,7 +41,7 @@ const nextConfig = {
   basePath: '',
 
   // This is where the static files (CSS, JS, images) will be served from:
-  assetPrefix: 'https://darshgondalia.github.io/my-portfolio',
+  assetPrefix: '',
 }
 
 module.exports = nextConfig
