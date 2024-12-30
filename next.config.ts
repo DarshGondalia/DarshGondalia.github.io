@@ -31,17 +31,9 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Required for static export in Next.js 15
   output: 'export',
-  
-  // If your repo name is <username>.github.io, you typically don’t need basePath.
-  // If your repo name is something else, say "my-portfolio",
-  // uncomment these lines:
-  // This is the subpath in the URL:
-  basePath: '',
-
-  // This is where the static files (CSS, JS, images) will be served from:
-  assetPrefix: '',
+  // If you want the site at https://darshgondalia.github.io/my-portfolio
+  // basePath: '/my-portfolio',
+  // assetPrefix: 'https://darshgondalia.github.io/my-portfolio',
 }
-
-module.exports = nextConfig
+export default nextConfig
