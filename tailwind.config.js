@@ -2,8 +2,8 @@
 module.exports = {
   darkMode: 'class', // We'll toggle this class manually
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "my-portfolio/app/**/*.{js,ts,jsx,tsx}",
+    "my-portfolio/app/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
