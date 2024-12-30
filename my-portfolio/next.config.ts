@@ -38,10 +38,10 @@ const nextConfig = {
   // If your repo name is something else, say "my-portfolio",
   // uncomment these lines:
   // This is the subpath in the URL:
-  basePath: '',
+  basePath: '/my-portfolio',
 
   // This is where the static files (CSS, JS, images) will be served from:
-  assetPrefix: 'https://darshgondalia.github.io/my-portfolio',
+  assetPrefix: 'https://darshgondalia.github.io',
 }
 
 module.exports = nextConfig
