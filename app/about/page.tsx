@@ -145,6 +145,16 @@ const yearlyExperiences: YearlyExperience[] = [
     year: '2021',
     experiences: [
       {
+        title: 'Machine Learning Engineer Intern',
+        company: '99Bridges',
+        duration: 'Jun 2021 - Sep 2021 · 3 mos',
+        description: [
+          'Developed object detection algorithm to identify & classify recyclable Chicobag images to automatically increment the count used in a self-checkout counter in product pilot operation in Target, CVS and Walmart.',
+          'Collaborated with a cross-functional team to optimize the existing model, improving throughput and latency by 50%, while decreasing false positives.',
+          'Engineered & tested a novel image processing pipeline for 99Bridges’ Chicobag using TensorFlow, achieving 98% precision within 2 weeks.'
+        ],
+      },
+      {
         title: 'Project: TradeComm',
         company: 'Personal Venture',
         duration: 'Aug 2020 - Nov 2021',
@@ -153,16 +163,6 @@ const yearlyExperiences: YearlyExperience[] = [
           'Installed direct conversation & public review system accessible to over 4K users worldwide, increasing visibility of customer reviews by 20%.',
           'Enabled automated follow-up processes for customer feedback, resulting in increased satisfaction ratings by 15%.',
           'Implemented an immediate feedback system and public/private forums- swift, RESTful API, Firebase.'
-        ],
-      },
-      {
-        title: 'Machine Learning Engineer Intern',
-        company: '99Bridges',
-        duration: 'Jun 2021 - Sep 2021 · 3 mos',
-        description: [
-          'Developed object detection algorithm to identify & classify recyclable Chicobag images to automatically increment the count used in a self-checkout counter in product pilot operation in Target, CVS and Walmart.',
-          'Collaborated with a cross-functional team to optimize the existing model, improving throughput and latency by 50%, while decreasing false positives.',
-          'Engineered & tested a novel image processing pipeline for 99Bridges’ Chicobag using TensorFlow, achieving 98% precision within 2 weeks.'
         ],
       },
       // Add more experiences in 2023 if any
