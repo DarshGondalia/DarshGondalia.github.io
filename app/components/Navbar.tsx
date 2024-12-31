@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="bg-gray-800 py-4">
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/">
-          <span className="text-2xl font-bold cursor-pointer">MyBrand</span>
+          <span className="text-2xl font-bold cursor-pointer">Home</span>
         </Link>
         <div className="space-x-4">
           <Link href="/about" className="hover:text-gray-300">

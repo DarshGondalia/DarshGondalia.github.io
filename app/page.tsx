@@ -60,6 +60,18 @@ export default function Home() {
             View My Work
           </a>
         </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3, duration: 0.8 }}
+        >
+          <a
+            href="/about"
+            className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded text-white font-semibold transition duration-300"
+          >
+            About Me
+          </a>
+        </motion.div>
       </div>
     </main>
   )
