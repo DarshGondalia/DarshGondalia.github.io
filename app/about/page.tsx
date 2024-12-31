@@ -19,12 +19,26 @@ export default function AboutPage() {
         </div>
         <div className="w-full md:w-2/3">
           <p className="text-gray-300 mb-4">
-            Hi, I’m John Doe. I love creating beautiful, high-performing web
-            apps. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Hello! I am a Machine Learning Engineer focused on creating real-world
+           applications that enhance daily experiences and optimize industrial processes.
+            With dual degrees in Computer Science and Statistics from the University of 
+            Massachusetts Amherst, I specialize in developing intelligent algorithms to 
+            improve sensor capabilities, building regression and predictive models, and 
+            conducting statistical modeling for stochastic processes. I am passionate 
+            about researching computer vision algorithms, enhancing their robustness, and
+             increasing their effectiveness in existing applications.
           </p>
           <p className="text-gray-300 mb-4">
-            Outside of coding, I enjoy reading about new tech trends, playing
-            games, and traveling.
+          With dual degrees in Computer Science and Statistics from the University of 
+          Massachusetts Amherst, I am a Software Developer and Data Science Student 
+          driven by innovation and a commitment to creating impactful software solutions.
+          </p>
+
+          <p className="text-gray-300 mb-4">
+          Machine Learning and Analytics are my core strengths. I thrive on learning 
+          new technologies and frameworks and am always eager to engage with and 
+          contribute to cutting-edge open-source initiatives. Don’t hesitate to reach 
+          out if you have exciting projects or collaborations in mind.
           </p>
         </div>
       </div>
