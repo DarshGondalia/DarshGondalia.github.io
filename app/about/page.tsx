@@ -255,7 +255,7 @@ export default function AboutPage() {
               {/* Experiences under the Year */}
               {yearlyExp.experiences.map((exp, expIndex) => {
                 // Determine alignment based on experience index
-                const isLeft = expIndex % 2 === 0
+                const isLeft = yearIndex % 2 === 0
                 const uniqueId = `${yearlyExp.year}-${expIndex}`
 
                 return (
