@@ -29,10 +29,21 @@ const yearlyExperiences: YearlyExperience[] = [
         company: 'SICK Sensor Intelligence',
         duration: 'Dec 2023 - Dec 2024 · 1 yr 1 mo',
         description: [
-          'Developed dynamic analytics algorithms for production line monitoring, transforming static sensor data into responsive analytics pages following OOP best practices.',
-          'Provided top-tier technical support to customers, resulting in a 20% increase in satisfaction ratings and a 15% reduction in software bugs.',
-          'Expanded the capabilities of industrial software by implementing advanced analytics algorithms, leading to a potential increase in customer satisfaction scores.',
-          'Developed customer analytics applications for various industrial production line instances with SICK Field Analytics.',
+          'Developed and implemented dynamic analytics algorithms for production line monitoring, transforming static sensor detected information pages into responsive sensor analytics page following OOP best practices.',
+          'Provide top-tier technical support to customers, resulting in a 20% increase in satisfaction ratings and a 15% reduction in software bugs.',
+          'Expand the capabilities of industrial software by implementing advanced analytics algorithms, leading to a potential increase in customer satisfaction scores.',
+          'Developed customer analytics applications for various industrial production line instances with SICK Field Analytics.'
+        ],
+      },
+      {
+        title: 'Project Tech Lead - Large Language Model Personalization in Recommendation',
+        company: 'Spotify Research',
+        duration: 'Jan 2024 - Jun 2024',
+        description: [
+          'Advanced the existing industry leading LLM for Text based sequential matching (TASTE model) by investigating methods to improve and optimise personalised Large Language Model recommendation.',
+          'Analysed the effectiveness of utilising low rank adapter (LoRA) weights per user based on their review history, leading to a 15% improvement in recommendation speed with zero to minimal loss in accuracy.',
+          'Led the research and implementation of individual-based fine-tuning models, reducing training time while maintaining a high level of personalisation for individual users.',
+          'For Paper and results go to portfolio page'
         ],
       },
       // Add more experiences in 2024 if any
@@ -42,21 +53,131 @@ const yearlyExperiences: YearlyExperience[] = [
     year: '2023',
     experiences: [
       {
+        title: 'Researcher',
+        company: 'UMass Amherst Math Department',
+        duration: 'Jun 2023 - Dec 2023 · 7 mos',
+        description: [
+          'Research Experience for Undergraduates (REU) in the UMass Amherst Mathematics Department, where I spearheaded a meta-population model of COVID-19 to project transmission across major cities.',
+          'Leveraged extensive real-world data—including daily case counts, mortality rates, infection/recovery rates, and population susceptibility—to uncover critical drivers of airborne disease spread.',
+          'Developed and validated a compartmental SEIR epidemiology framework, accurately estimating city-to-city transmission dynamics and informing actionable insights for public health strategies.'
+        ],
+      },
+      {
         title: 'Machine Learning Engineer Intern',
         company: '99Bridges',
-        duration: 'June 2023 - Aug 2023 · 3 mos',
+        duration: 'Jun 2023 - Aug 2023 · 3 mos',
         description: [
           'Developed an object detection algorithm for recyclable Chicobag images, improving model performance and efficiency by 50%.',
           'Achieved 98% precision in image classification tasks, strengthening expertise in computer vision and machine learning optimization.',
         ],
       },
       {
-        title: 'Researcher',
-        company: 'UMass Amherst Math Department',
-        duration: 'Jan 2023 - May 2023 · 5 mos',
+        title: 'Project: Snapchat UI Element Pruner',
+        company: 'University of Massachusetts Amherst',
+        duration: 'Jan 2023 - May 2023',
         description: [
-          'Created a meta-population model for COVID-19, leveraging Python, R, and data analysis to simulate and visualize virus spread.',
-          'Enhanced skills in statistical modeling and epidemiological simulations through this research project.',
+          'Collaborated with cross-functional teams to develop a robust algorithm that quickly prunes any disrupting elements from images containing child sexual abuse material on Snapchat, contributing to a 80% increase in successful restoration of original images.',
+          'Utilized Yolov8 and pretrained StableDiffusion model to detect and remove essential elements that hide important information in Snapchat images, such as text boxes, unknown scratches and additional user added GUI elements, resulting in a 90% increase in image clarity for FBI investigations.',
+          'Implemented a feature allowing users to select specific areas of the image to target anomalies created by the Snapchat paint tool, leading to a 75% reduction in time spent identifying and removing disruptive elements.',
+          'Skills: Computer Vision · Stable Diffusion · REST APIs · Machine Learning · Agile Development'
+        ],
+      },
+      // Add more experiences in 2023 if any
+    ],
+  },
+  {
+    year: '2022',
+    experiences: [
+      {
+        title: 'Project: EnRoute- Travel Planning Website for College Students',
+        company: 'University of Massachusetts Amherst',
+        duration: 'Mar 2022 - May 2022',
+        description: [
+          'Built and deployed custom EnRoute Travel website using Javascript, ExpressJS, HTML & CSS for college students to easily plan their vacations.',
+          'Created user-friendly interface with features tailored to college student\'s vacation needs; grew monthly customer base by 25%.',
+          'Optimized MongoDB database for data storage and retrieval speed resulting in a 30% reduction of loading times.',
+          'Implemented server using Node.js, Express.js; database using MongoDB; dynamic website using HTML, CSS, Javascript, Bootstrap.'
+        ],
+      },
+      {
+        title: 'Project: Hear Your Feelings',
+        company: 'University of Massachusetts Amherst',
+        duration: 'Apr 2022 - May 2022',
+        description: [
+          'Developed a project that uses computer vision to detect a user\'s emotion and provides song genre and playlist recommendations based on that emotion.',
+          'Integrated Machine Learning algorithms to recognize 5 different emotions with 95% accuracy, increasing user engagement by 25%.',
+          'Deployed an automated system for analyzing images of human faces in real-time using TensorFlow & OpenCV technologies, resulting in a 30% reduction in development costs.',
+          'Merging two models- 1. Emotion detector using PyTorch, KNF, NumPy. 2. Song Suggestion using SGD on Spotify music dataset.'
+        ],
+      },
+      {
+        title: 'Project: Movie Recommendation system',
+        company: 'University of Massachusetts Amherst',
+        duration: 'Apr 2022 - May 2022',
+        description: [
+          'Integrated Popularity Based System, Content-Based Filtering, Collaborative Filtering & Hybrid System to recommend movies to users based on preferences & likings.',
+          'Achieved 100% approval upon conducting beta test with 300 users for measuring success of the app.',
+          'Recommends a movie to a user based on ratings history and personal data like age, gender, location, etc.',
+          'Python, SGD on sparse matrix of data to train; Achieved over 85% accuracy using a 94% sparse matrix.'
+        ],
+      },
+      {
+        title: 'Project: Scrabble Clone',
+        company: 'University of Massachusetts Amherst',
+        duration: 'Mar 2022 - May 2022',
+        description: [
+          'Designed and developed scrabble game clone.',
+          'Implemented all time scorekeeping using ExpressJS, NodeJS, Javascript, HTML, CSS.'
+        ],
+      },
+      {
+        title: 'Project: Artificial Face Generator',
+        company: 'University of Massachusetts Amherst',
+        duration: 'Feb 2022 - Feb 2022',
+        description: [
+          'Created a model that generates a fake face which looks like an actor/actress but is actually fake.',
+          'Implemented GANs using PyTorch, NumPy and CNNs/filters and achieved over 95% accuracy in testing.'
+        ],
+      },
+    ]
+  },
+  {
+    year: '2021',
+    experiences: [
+      {
+        title: 'Project: TradeComm',
+        company: 'Personal Venture',
+        duration: 'Aug 2020 - Nov 2021',
+        description: [
+          'Developed TradeComm platform to enable seamless digital communication between different stakeholders in the textile industry, allowing for improved collaboration & feedback.',
+          'Installed direct conversation & public review system accessible to over 4K users worldwide, increasing visibility of customer reviews by 20%.',
+          'Enabled automated follow-up processes for customer feedback, resulting in increased satisfaction ratings by 15%.',
+          'Implemented an immediate feedback system and public/private forums- swift, RESTful API, Firebase.'
+        ],
+      },
+      {
+        title: 'Machine Learning Engineer Intern',
+        company: '99Bridges',
+        duration: 'Jun 2021 - Sep 2021 · 3 mos',
+        description: [
+          'Developed object detection algorithm to identify & classify recyclable Chicobag images to automatically increment the count used in a self-checkout counter in product pilot operation in Target, CVS and Walmart.',
+          'Collaborated with a cross-functional team to optimize the existing model, improving throughput and latency by 50%, while decreasing false positives.',
+          'Engineered & tested a novel image processing pipeline for 99Bridges’ Chicobag using TensorFlow, achieving 98% precision within 2 weeks.'
+        ],
+      },
+      // Add more experiences in 2023 if any
+    ],
+  },
+  {
+    year: '2020',
+    experiences: [
+      {
+        title: 'Software Application Developer',
+        company: 'SGKWA',
+        duration: 'Jun 2020 - Oct 2020 · 5 mos',
+        description: [
+          'Worked with the team to understand requirements and used requirements elicitation techniques such as interviews, questionnaires and surveys and documented them.',
+          'Used Java with Android studio and developed a basic 4 page app.'
         ],
       },
       // Add more experiences in 2023 if any
