@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postbuild": "cp public/.nojekyll out/.nojekyll",
     "deploy": "npm run build && gh-pages -d out"
   },
   "devDependencies": {
@@ -17,7 +16,7 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.1.3",
-    "gh-pages": "^6.2.0",
+    "gh-pages": "^5.x",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"

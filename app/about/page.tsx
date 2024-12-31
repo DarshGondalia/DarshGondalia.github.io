@@ -10,7 +10,7 @@ export default function AboutPage() {
       <div className="flex flex-col md:flex-row items-center md:space-x-6">
         <div className="w-full md:w-1/3 mb-4 md:mb-0">
           <Image
-            src="/images/your-profile-photo.jpg" // Put your image in public/images
+            src="/images/portrait.jpg" // Put your image in public/images
             alt="Profile Picture"
             width={300}
             height={300}
