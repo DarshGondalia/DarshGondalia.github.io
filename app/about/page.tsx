@@ -63,15 +63,6 @@ const yearlyExperiences: YearlyExperience[] = [
         ],
       },
       {
-        title: 'Machine Learning Engineer Intern',
-        company: '99Bridges',
-        duration: 'Jun 2023 - Aug 2023 · 3 mos',
-        description: [
-          'Developed an object detection algorithm for recyclable Chicobag images, improving model performance and efficiency by 50%.',
-          'Achieved 98% precision in image classification tasks, strengthening expertise in computer vision and machine learning optimization.',
-        ],
-      },
-      {
         title: 'Project: Snapchat UI Element Pruner',
         company: 'University of Massachusetts Amherst',
         duration: 'Jan 2023 - May 2023',
